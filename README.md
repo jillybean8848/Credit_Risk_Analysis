@@ -46,7 +46,26 @@ The machine learning methods used to evaluate credit risk were:
   * Precision Low Risk: 100%
   * Recall High Risk: 72%
   * Recall Low Risk: 57%
+ 
+![SMOTEENN](https://user-images.githubusercontent.com/110632671/206835379-ea7c3210-8b6a-41fa-baa7-1be4787b38f3.png)
 
+### Balanced Random Forest Classifier
+ * Accuracy Score: 78.7%
+ * Precision High Risk: 4%
+ * Precision Low Risk: 100%
+ * Recall High Risk: 67%
+ * Recall Low Risk: 91%
 
+![bfc](https://user-images.githubusercontent.com/110632671/206835645-ef8e7882-439c-4100-873e-ff2fd3bc1df0.png)
 
+### Easy Ensemble Classifier
+ * Accuracy Score: 92.5%
+ * Precision High Risk: 7%
+ * Precision Low Risk: 100%
+ * Recall High Risk: 91%
+ * Recall Low Risk: 94%
 
+![easy_ensemble](https://user-images.githubusercontent.com/110632671/206835757-a82e6733-6141-4567-9aa6-af0834ff2d8f.png)
+
+## Summary 
+As I previously stated, credit-risk is very difficult to predict. While the Easy Ensemble AdaBoost Classifier performed with the highest accuracy at 92.5% all other models left substantial room for error. All models performed poorly when it came to determening high credit risk. It is my opinion that machine learning would not be the best model to use when determining credit risk. 
