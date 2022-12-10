@@ -2,6 +2,13 @@
 ## Overview
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, multiple techniques were necessary in order to train and evaluate this model.
 
-The methods of machine learning used to evaluate credit risk were:
-  * 
+The machine learning methods used to evaluate credit risk were:
+  * imbalanced-learn
+  * scikit-learn
+  * RandomOverSampler
+  * SMOTE 
+  * ClusterCentroids 
+  * SMOTEENN
+  * BalancedRandomForestClassifier 
+  * EasyEnsembleClassifier 
 
