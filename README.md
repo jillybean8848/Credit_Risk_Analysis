@@ -31,7 +31,22 @@ The machine learning methods used to evaluate credit risk were:
 
 ![SMOTE](https://user-images.githubusercontent.com/110632671/206835136-c996afef-a787-491d-8225-6df195e0b677.png)
 
-### 
+### Cluster Centroid Undersampling
+  * Accuracy Score: 65.8%
+  * Precision High Risk: 1%
+  * Precision Low Risk: 100%
+  * Recall High Risk: 69%
+  * Recall Low Risk: 40%
+
+![cluster_centroid_undersampling](https://user-images.githubusercontent.com/110632671/206835271-33192843-400d-46d2-811c-746699ca9256.png)
+
+### SMOTEEN
+  * Accuracy Score: 54.4%
+  * Precision High Risk: 1%
+  * Precision Low Risk: 100%
+  * Recall High Risk: 72%
+  * Recall Low Risk: 57%
+
 
 
 
